@@ -8,7 +8,7 @@
 # -Falta documentación
 
 from os import system
-from CalculadoraFunciones.funciones import *
+from Calculadora.funciones import *
 
 def menu():
     num1 = None
