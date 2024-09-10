@@ -24,10 +24,10 @@ def calculo_resto(num1:float,num2:float)->float:
     else:
         resto=num1%num2 #Proceso
         return resto #Salida
-def calculo_factorial(n):
-    if n < 0: #Siempre que el número sea negativo
+def calculo_factorial(repetir):
+    if repetir < 0: #Siempre que el número sea negativo
         return "El factorial no está definido para números negativos." #Primer salida
-    elif n == 0 or n == 1: #Siempre que el número sea 0 o 1
+    elif repetir == 0 or repetir == 1: #Siempre que el número sea 0 o 1
         return 1 #Segunda salida
     else: #Numeros mayores a 1
-        return n * calculo_factorial(n - 1) #Tercer salida
+        return repetir * calculo_factorial(repetir - 1) #Tercer salida
